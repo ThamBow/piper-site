@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway: 300,400');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+@font-face {
+    font-family: 'ALBA';
+    src: url('fonts/ALBA____.TTF') format('TTF'),
+     url('fonts/ALBAM___.TTF') format('.TTF'),
+     url('fonts/ALBAS___.TTF') format('.TTF');
+    /* font-family: 'Booter - Zero Zero';
+    src: url('fonts/Booter - Zero Zero.woff') format('woff'),
+    url('fonts/Booter - Zero Zero.woff2')format('woff'); */
+    font-weight: normal;    
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: rgb(247, 245, 243);
+    text-decoration: none;
+    text-shadow: 3px 3px  #080808;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.nav a:hover{
+    color: rgba(255, 255, 255, .3);
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding: 0 .5%;
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0 .6);
+    background-image: url('images/Header Background.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;  
+    font-size: 4em;
+    font-family: 'ALBA';
+    /* font-family: 'Booter - Zero Zero'; */
+    font-weight: normal;
+    color: white;
+    letter-spacing: .060em;
+}
+
+.band-name-large{
+    font-size: 6em;
+    text-shadow: 3px 3px #0f0f0e;
+    color: rgb(197, 194, 5);
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: Monoton;
+    font-weight: normal;  
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    /* background-color: #56CCF2; */
+    background-color: rgb(207, 154, 9);
+    color: #fff; 
+    padding: .25em 0em;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;   
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.main-footer h3{
+    letter-spacing: .030em;
+    text-shadow: 2px 2px #cbe00d;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: rgb(245, 244, 238);
+    border: 2px solid rgb(231, 231, 226);
+    background-color: rgba(29, 27, 27, 0.3);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: rgb(245, 244, 238);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    background-color: rgba(29, 27, 27, 0.3);
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city{
+    width: 24%;
+}
+
+.tour-arena{
+    width: 42%;
+}
+
+.tour-btn{
+   max-width: 19%;
+}
+
+.btn-primary{
+    color: #000;
+    background-color:  rgb(207, 154, 9);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    background-color: blanchedalmond;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+    color: #000;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+   width: 45%; 
+}
+
+
+.cart-quantity{
+    width: 30%;  
+}
+
+.cart-price{
+    width: 25%; 
+    font-size: 1.2em;
+    color: #000;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: .3em;    
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: darkkhaki;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border: 1px solid rgb(207, 154, 9);
+    border-radius: 5px;
+    background-color: rgb(231, 231, 222);
+    color: #000;
+    padding: 0;
+    font-size: 1.2em;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #000;
+    margin-right: 20px;
+
+}
+
+.cart-total-price{
+    color: 333;
+    font-size: 1.1em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size:  1.5em;
+}
