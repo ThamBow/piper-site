@@ -110,7 +110,7 @@ function ready(){
             var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
             
             var price = '';
-            if (quantityElement){
+            if (priceElement){
                 price = parseFloat(priceElement.innerText.replace('£', ''))
 
             }
